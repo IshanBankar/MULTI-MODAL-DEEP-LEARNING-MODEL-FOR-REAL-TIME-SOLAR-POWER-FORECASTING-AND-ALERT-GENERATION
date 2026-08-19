@@ -1,0 +1,40 @@
+{
+  "threshold": {
+    "precision": 0.950,
+    "recall": 0.720,
+    "f1": 0.819,
+    "fpr": 0.038,
+    "tp": 173,
+    "fp": 9,
+    "fn": 67,
+    "tn": 229
+  },
+  "iforest": {
+    "precision": 0.830,
+    "recall": 0.850,
+    "f1": 0.840,
+    "fpr": 0.173,
+    "tp": 204,
+    "fp": 42,
+    "fn": 36,
+    "tn": 196
+  },
+  "or_fusion": {
+    "precision": 0.910,
+    "recall": 0.880,
+    "f1": 0.894,
+    "fpr": 0.089,
+    "tp": 211,
+    "fp": 21,
+    "fn": 29,
+    "tn": 217
+  },
+  "per_type_recall": {
+    "inverter_trip": 1.000,
+    "string_fault": 0.920,
+    "mppt_underperf": 0.750
+  },
+  "tau_used": 0.15,
+  "n_anomaly": 240,
+  "n_normal": 238
+}

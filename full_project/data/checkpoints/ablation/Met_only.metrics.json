@@ -1,0 +1,14 @@
+{
+  "best_epoch": 50,
+  "best_val_rmse_kw": 49.88220977783203,
+  "test_rmse_kw": 46.03640365600586,
+  "test_mae_kw": 27.2515869140625,
+  "test_r2": 0.8845100402832031,
+  "test_nrmse_pct": 9.207280731201172,
+  "fusion": "concat",
+  "use_ts": false,
+  "use_met": true,
+  "use_img": false,
+  "params": 58945,
+  "epochs_run": 71
+}

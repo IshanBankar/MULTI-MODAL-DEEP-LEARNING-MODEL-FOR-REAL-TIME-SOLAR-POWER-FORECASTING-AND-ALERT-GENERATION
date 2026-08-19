@@ -1,0 +1,29 @@
+{
+  "arima": {
+    "model": "ARIMA(2,1,2)",
+    "rmse": 21.40,
+    "mae": 17.20,
+    "r2": 0.712,
+    "nrmse": 4.28
+  },
+  "svr": {
+    "model": "SVR (RBF)",
+    "rmse": 16.80,
+    "mae": 13.50,
+    "r2": 0.801,
+    "nrmse": 3.36,
+    "n_support": 4821
+  },
+  "late_fusion": {
+    "model": "Late-Fusion Ensemble",
+    "rmse": 9.12,
+    "mae": 7.38,
+    "r2": 0.923,
+    "nrmse": 1.82,
+    "weights": {
+      "TS_only": 0.0887,
+      "Met_only": 0.0674,
+      "Img_only": 0.0767
+    }
+  }
+}

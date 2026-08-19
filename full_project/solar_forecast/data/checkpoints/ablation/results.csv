@@ -1,0 +1,9 @@
+name,fusion,use_ts,use_met,use_img,params,best_epoch,epochs_run,test_rmse_kw,test_mae_kw,test_r2,test_nrmse_pct
+TS_only,concat,True,False,False,267777,22,43,11.27,9.14,0.892,2.25
+Met_only,concat,False,True,False,58945,50,71,14.83,12.01,0.788,2.97
+Img_only,concat,False,False,True,159745,42,63,13.05,10.72,0.865,2.61
+TS_Met,concat,True,True,False,293441,9,30,8.61,6.52,0.931,1.72
+TS_Img,concat,True,False,True,394241,43,64,7.94,6.09,0.943,1.59
+Met_Img,concat,False,True,True,185409,14,35,10.22,8.17,0.903,2.04
+EarlyFusion,concat,True,True,True,419905,78,91,6.14,4.87,0.963,1.23
+AttnFusion,attention,True,True,True,413252,82,100,5.89,4.63,0.968,1.18
