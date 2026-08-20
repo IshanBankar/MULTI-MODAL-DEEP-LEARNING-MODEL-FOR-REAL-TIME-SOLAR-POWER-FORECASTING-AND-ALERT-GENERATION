@@ -1,0 +1,11 @@
+# Not needed inside the dashboard container — keeps the image small and the build fast
+notebooks/
+solar_forecast/
+.git/
+__pycache__/
+*.pyc
+mlruns/
+mlflow.db
+.venv/
+venv/
+.streamlit/secrets.toml
